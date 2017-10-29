@@ -14,19 +14,18 @@ void cad(){
 void pes(){
 
     j=0;
-                    flush_in();
-                    puts("pesquisar: ");
-                    gets(pesquisar);
+       flush_in();
+       puts("pesquisar: ");
+       gets(pesquisar);
 
-                    while (j<i){
-
-                     if(strcmp(str[j],pesquisar)==0){
-                        printf("STR %d sao iguais\n",j);
+               while (j<i){
+                  if(strcmp(str[j],pesquisar)==0){
+                    printf("STR %d sao iguais\n",j);
                     }else{
-                    printf("STR %d Diferentes\n",j);
+                      printf("STR %d Diferentes\n",j);
                     }
-                    j++;
-                    }
+                  j++;
+               }
 }
 
 void mos(){
