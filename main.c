@@ -5,10 +5,10 @@
 
 
 void cad(){
-                    flush_in();
-                    puts("str: ");
-                    gets(str[i]);
-                    i++;
+    flush_in();
+    puts("str: ");
+    gets(str[i]);
+    i++;
 }
 
 void pes(){
